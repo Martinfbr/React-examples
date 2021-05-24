@@ -1,22 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React , {useContext, useState, useRef, useCallback, useEffect} from 'react'
+import Header from './components/header/Header';
+
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-   
-        <h1> Ejercicios de react </h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      {
+        menuOpen && <Nav/>
+      }
+      <Hero/>
+      <Shorten/>
+      <Features/>
+      <Boost/>
+      <Footer/>
     </div>
   );
 }
