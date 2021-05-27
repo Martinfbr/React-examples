@@ -9,14 +9,14 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {
+      {/* {
         menuOpen && <Nav/>
       }
       <Hero/>
       <Shorten/>
       <Features/>
       <Boost/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
