@@ -6,6 +6,8 @@ import Hero from './components/hero/Hero';
 import Features from './components/features/Features'
 import Boost from './components/boost/Boost'
 import Shorten from './components/shorten/Shorten'
+import Footer from './components/footer/Footer'
+
 function App() {
 
  // const {menuOpen} = useContext(Context)
@@ -18,7 +20,7 @@ function App() {
       <Shorten/>
       <Features/>
       <Boost/>
-      {/* <Footer/> */}
+      <Footer/> 
     </div>
   );
 }

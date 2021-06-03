@@ -3,7 +3,7 @@ import './features.css'
 import brandImg from '../../img/icon-brand-recognition.svg'
 import recordsImg from '../../img/icon-detailed-records.svg'
 import customImg from '../../img/icon-fully-customizable.svg'
-
+import Resultados from '../resultados'
 
 function Features() {
 
@@ -11,7 +11,7 @@ function Features() {
     return (
         <div className='features-container'>
 
-            {/* <Results/> */}
+            <Resultados/>
 
             
             <div className="features-title">
