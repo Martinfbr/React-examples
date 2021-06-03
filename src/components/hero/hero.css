@@ -1,4 +1,5 @@
-/* Hero Section */
+/* Hero Sectionn */
+
 .hero-section {
     /* border: var(--border); */
     padding: 0 22px;
@@ -10,6 +11,7 @@
     flex-direction: column;
     text-align: center;
 }
+
 .hero-image {
     /* border: var(--border); */
     height: 330px;
@@ -17,22 +19,26 @@
     top: 23px;
     right: -150px;
 }
+
 .hero-title-section {
     max-width: 400px;
     /* border: var(--border); */
     margin: 0 auto;
 }
+
 .hero-section h1 {
     /* border: var(--border); */
     font-size: 2.5rem;
     margin: 400px 0 0 0;
 }
+
 .hero-section h2 {
     color: var(--gray);
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 28px;
 }
+
 .hero-section button {
     width: 196px;
     height: 56px;
@@ -46,6 +52,7 @@
     outline: none;
     cursor: pointer;
 }
+
 .hero-section button:hover {
     background: var(--light-cyan);
 }
@@ -61,7 +68,8 @@
         margin: 450px 0 0 0;
     }
 }
-@media (min-width: 930px ) {
+
+@media (min-width: 930px) {
     .hero-image {
         height: 560px;
     }
@@ -70,6 +78,7 @@
         font-size: 3rem;
     }
 }
+
 @media (min-width: 1100px) {
     .hero-section {
         padding: 0;
