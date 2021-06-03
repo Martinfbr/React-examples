@@ -1,19 +1,19 @@
 import React, {useContext} from 'react'
 import Logo from '../../img/logo.svg'
 import './header.css'
-import {Context} from '../Context'
+//import {Context} from '../Context'
 
 
 function Header() {
 
-    const {toggleMenu} = useContext(Context)
+    // const {toggleMenu} = useContext(Context)
     // const {menuOpen} = useContext(Context)
 
     return (
         <header>
             <img className='logo' src={Logo}></img>
             <i  
-                onClick={() => toggleMenu()}
+                // onClick={() => toggleMenu()}
                 className="fas fa-bars nav-btn" id='nav-btn'
             ></i>
             <ul className='nav'>
