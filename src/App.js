@@ -9,8 +9,6 @@ import Shorten from './components/shorten/Shorten'
 import Footer from './components/footer/Footer'
 
 function App() {
-
- // const {menuOpen} = useContext(Context)
     
   return (
     <div className="App">

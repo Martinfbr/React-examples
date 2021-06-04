@@ -7,12 +7,10 @@ import Resultados from '../resultados'
 
 function Features() {
 
-
     return (
         <div className='features-container'>
 
             <Resultados/>
-
             
             <div className="features-title">
                 <h2>Advanced Statistics</h2>
