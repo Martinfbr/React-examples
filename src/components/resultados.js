@@ -2,11 +2,9 @@ import React, {useState, useRef, useEffect} from 'react'
 
 
 function Resultados(props) {
+    
     const [allItems, setAllItems] = useState()
-    const [copiedUrl, setCopiedUrl] = useState('')
-    const [successfullyCopied, setSuccessfullyCopied] = useState(false)
-    const [currentIndex, setCurrentIndex] = useState()
-
+   
     let items = []
 
     useEffect( () => {
@@ -19,9 +17,7 @@ function Resultados(props) {
 
     }, [])
 
-    let pRef = useRef(null)
-
-   return (
+       return (
         <div>
             {
                 allItems === undefined ? '' :
