@@ -42,7 +42,7 @@ header .login-container {
         align-items: center;
         list-style: none;
         cursor: pointer;
-        /* border: var(--border); */
+   
         width: 265px;
         color: var(--grayish-violet);
         height: 40px;
@@ -53,11 +53,9 @@ header .login-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* border: var(--border); */
         width: 185px;
     }
     header .login-container p {
-        /* color: var(--gray); */
         color: var(--grayish-violet);
         font-weight: 700;
         cursor: pointer;
