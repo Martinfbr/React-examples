@@ -1,27 +1,24 @@
-import React, {useState, useRef, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 
+//Creamos la funcion que nos va retornar el link acortado
 
 function Resultados(props) {
-    
+
     const [allItems, setAllItems] = useState()
    
     let items = []
 
+    //Utilizamos UseEffect para obtener los items 
     useEffect( () => {
         const allItems = Object.keys(localStorage)
-        for(let i = 0; i < allItems.length; i++) {
-            let parsedUrl = JSON.parse(localStorage.getItem(allItems[i]))
-            items.push(parsedUrl)
+        
         }
-        setAllItems(items)
-
-    }, [])
-
+    ) 
        return (
         <div>
             {
                 allItems === undefined ? '' :
-                allItems.map((url, index) => (
+                allItems.map((url) => (
                     <div 
                         className='results-container'>
                         <p 

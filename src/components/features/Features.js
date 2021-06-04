@@ -3,14 +3,14 @@ import './features.css'
 import brandImg from '../../img/icon-brand-recognition.svg'
 import recordsImg from '../../img/icon-detailed-records.svg'
 import customImg from '../../img/icon-fully-customizable.svg'
-import Resultados from '../resultados'
+//import Resultados from '../resultados'
 
 function Features() {
 
     return (
         <div className='features-container'>
 
-            <Resultados/>
+            {/* <Resultados/> */}
             
             <div className="features-title">
                 <h2>Advanced Statistics</h2>
